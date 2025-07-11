@@ -1,16 +1,16 @@
-# Lab Assignment 3: Arrays and Pointers in C
+# Lab Assignment 3: Looping Constructs and Input Control in C
 
 ## 🎯 Topic
 
-One-Dimensional Arrays, Pointer Manipulation, and Loop Structures in C  
+Iteration Logic Using `for`, `while`, `do...while` and Controlled Input in C  
+(Laboratory Work #3, Variant 6)
 
 ## 📌 Goal
 
-- Explore basic array construction and access in C, including global, static, and automatic memory.
-- Work with pointers and learn how they interact with array elements.
-- Perform numeric calculations and input validation using loop constructs (`for`, `while`, `do...while`).
-- Practice row-wise summation, element filtering, and range-based operations using pointer arithmetic.
-- Use formatted output and control logic to organize screen-based reporting of results.
+- Explore cyclic execution using all loop operators in C: `for`, `while`, `do...while`.
+- Implement algorithms using nested loops, conditional exit (`break`), skip iteration (`continue`), and input bounds control.
+- Solve real-world tasks including row summation, input filtering, and function tabulation.
+- Compare behavioral differences between loop types and demonstrate conversion between loop styles.
 
 ## 📂 Project Structure
 
@@ -30,56 +30,57 @@ code/lab_3/
   <tbody>
     <tr>
       <td><code>task_1.c</code></td>
-      <td><code>while</code> loop summing even integers until sum &gt; 20</td>
+      <td>Uses <code>while</code> to sum values divisible by 4 until limit is reached</td>
     </tr>
     <tr>
       <td><code>task_2.c</code></td>
-      <td><code>for</code> loop calculating squares with early exit if <code>a &gt; 500</code></td>
+      <td><code>for</code> loop calculating squares with exit condition and user-defined length</td>
     </tr>
     <tr>
       <td><code>task_3.c</code></td>
-      <td>Nested <code>for</code> loop printing function <code>F = a² - b²</code> over 2D ranges</td>
+      <td>Nested <code>for</code> loops computing <code>F = a² − b²</code> over a 2D range table</td>
     </tr>
     <tr>
       <td><code>task_4.c</code></td>
-      <td><code>while</code> loop filtering and summing odd integers entered from keyboard</td>
+      <td>Input filtering and summing characters in ASCII range using <code>while</code></td>
     </tr>
     <tr>
       <td><code>task_5.c</code></td>
-      <td><code>do...while</code> input validation and calculating <code>sinh(x)</code> and <code>cosh(x)</code></td>
+      <td>Validates range via <code>do...while</code>, then computes <code>sinh(x)</code> and <code>cosh(x)</code></td>
     </tr>
   </tbody>
 </table>
 
-⚠️ All source files must be placed directly in `code/lab_3/` and named exactly as shown above.
+⚠️ All C source files must be placed directly in `code/lab_3/` and named exactly as shown above.
 
 ---
 
 ## ✅ Tasks
 
-1. **Task 1 – Sum Even Numbers via `while`**
-   - Start from zero and sum even values until total exceeds 20.
-   - Track number of iterations and final term added.
+1. **Even Number Summation (`while`)**
+   - Sum integers divisible by 4 until the last value exceeds 36.
+   - Count number of iterations and print each step.
 
-2. **Task 2 – Squares via `for`**
-   - Input iteration count from keyboard.
-   - Print square of each number unless the next value exceeds 500.
+2. **Square Computation (`for`)**
+   - Ask user for number of terms.
+   - Compute square of each number, but exit if `a > 500`.
 
-3. **Task 3 – Function Evaluation via Nested Loops**
-   - Compute `F = a² – b²` for `a ∈ [0, 40]` step 4 and `b ∈ [6, 20]` step 2.
-   - Use formatted table output with alignment.
+3. **Function Table (`F = a² − b²`)**
+   - Use nested `for` loops to vary:
+     - `a` in `[0, 40]` step 4
+     - `b` in `[6, 20]` step 2
+   - Print table with aligned output of `a`, `b`, and `F`.
 
-4. **Task 4 – Filtering Values**
-   - Allow input of up to 15 integers; exit on `0`.
-   - Sum and count values in ASCII range `[48, 122]`.
-   - Print each matched value as character and total sum.
+4. **ASCII Filtering**
+   - Accept up to 15 integers from keyboard.
+   - For values in range `[48, 122]`, show corresponding ASCII character and calculate total sum.
+   - Terminate on input of `0`.
 
-5. **Task 5 – Controlled Input for Hyperbolic Functions**
-   - Accept up to 12 real numbers in range `[-3π, 3π]`.
-   - Validate input using `do...while`.
-   - For valid values, compute `sinh(x)` and `cosh(x)`.
-   - Exit if input exceeds bounds or after 5 valid entries.
+5. **Hyperbolic Function Calculation**
+   - Accept real values in range `[-3π, 3π]` via `do...while`.
+   - Compute `sinh(x)` and `cosh(x)` for first 5 valid entries.
+   - Maximum input attempts: 12; terminate otherwise.
 
 ---
 
-📎 Applies loop structures, input control, pointer arithmetic, and numeric operations in C, reinforcing mastery of array and memory interaction in low-level programming.
+📎 Applies loop selection, input validation, and nested logic to solve iterative computation problems in C, reinforcing control flow design and user-driven logic interaction.
