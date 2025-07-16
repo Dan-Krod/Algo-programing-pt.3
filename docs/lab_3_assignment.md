@@ -2,8 +2,7 @@
 
 ## 🎯 Topic
 
-Iteration Logic Using `for`, `while`, `do...while` and Controlled Input in C  
-(Laboratory Work #3, Variant 6)
+Iteration Logic Using `for`, `while`, `do...while` and Controlled Input in C
 
 ## 📌 Goal
 
