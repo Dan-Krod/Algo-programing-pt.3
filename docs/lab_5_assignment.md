@@ -3,7 +3,6 @@
 ## 🎯 Topic
 
 Two-Dimensional Arrays, Pointer Arrays, and Dynamic Memory Allocation  
-(Laboratory Work #5, Variant 6)
 
 ## 📌 Goal
 
