@@ -3,7 +3,6 @@
 ## 🎯 Topic
 
 Working with Two-Dimensional Arrays and Matrix Processing via Functions  
-(Laboratory Work #7, Variant 6)
 
 ## 📌 Goal
 
