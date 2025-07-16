@@ -3,7 +3,6 @@
 ## 🎯 Topic
 
 Defining Functions and Managing Iterative Processes for Series Expansion in **Rust**🦀  
-(Laboratory Work #9, Variant 6)
 
 ## 📌 Goal
 
