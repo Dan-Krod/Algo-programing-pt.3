@@ -2,8 +2,7 @@
 
 ## 🎯 Topic
 
-Exploring Branching Logic Using `if...else`, `switch`, and Nested Conditionals in C  
-(Laboratory Work #2, Variant 6)
+Exploring Branching Logic Using `if...else`, `switch`, and Nested Conditionals in C
 
 ## 📌 Goal
 
