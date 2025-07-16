@@ -3,7 +3,6 @@
 ## 🎯 Topic
 
 Single-Dimensional Arrays, Pointer Access, and Indexing Mechanisms in C  
-(Laboratory Work #4, Variant 6)
 
 ## 📌 Goal
 
