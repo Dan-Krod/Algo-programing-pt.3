@@ -57,27 +57,27 @@ code/lab_2/
 
 ## ✅ Tasks
 
-### Task 1 – Ends with Zero
-   - Read an integer and determine whether it ends with digit `0` using modulo.
-   - Use `if...else` with formatted output for both cases.
+1. **Ends with Zero**
+     - Read an integer and determine whether it ends with digit `0` using modulo.
+     - Use `if...else` with formatted output for both cases.
 
-### Task 2 – Nested Conditions
-   - Use nested `if...else` to evaluate whether a number is divisible by 4 or 3, depending on whether it’s greater than 50 or not.
+2. **Nested Conditions**
+     - Use nested `if...else` to evaluate whether a number is divisible by 4 or 3, depending on whether it’s greater than 50 or not.
 
-### Task 3 – Switch with Character
-   - Input the first letter of a capital and display its full name.
-   - Use `switch` and `tolower()` to support lowercase logic.
-   - Include a default branch for unknown input.
+3. **Switch with Character**
+     - Input the first letter of a capital and display its full name.
+     - Use `switch` and `tolower()` to support lowercase logic.
+     - Include a default branch for unknown input.
 
-### Task 4 – Switch with Multiple Case Labels
-   - Input a month number and display season name.
-   - Use grouped case labels: (3,4,5), (6–8), etc.
-   - Handle invalid month numbers with error message.
+4. **Switch with Multiple Case Labels**
+     - Input a month number and display season name.
+     - Use grouped case labels: (3,4,5), (6–8), etc.
+     - Handle invalid month numbers with error message.
 
-### Task 5 – Minimum & Even/Odd Check
-   - Input 3 integers and find the minimum.
-   - Use `if...else` to check if the minimum value is even or odd.
-   - Display both results clearly.
+5. **Minimum & Even/Odd Check**
+     - Input 3 integers and find the minimum.
+     - Use `if...else` to check if the minimum value is even or odd.
+     - Display both results clearly.
 
 ---
 
