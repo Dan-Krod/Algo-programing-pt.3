@@ -3,7 +3,6 @@
 ## 🎯 Topic
 
 One-Dimensional Array Traversal and Conditional Summation Using Slices in **Rust**🦀  
-(Laboratory Work #10, Variant 6)
 
 ## 📌 Goal
 
