@@ -62,30 +62,25 @@ Use `.c` for C files and `.cpp` for C++ files where required by task instruction
 
 ## ✅ Tasks
 
-### Part 1 – Basic Type Output & ASCII Encoding
+1. **Basic Type Output & ASCII Encoding**
+     - Display character code and size for `char`, `int`, `float`.
+     - Add custom output: name, first letter’s ASCII codes, and new variables of type `short`, `long`, `double`.
 
-- Display character code and size for `char`, `int`, `float`.
-- Add custom output: name, first letter’s ASCII codes, and new variables of type `short`, `long`, `double`.
+2. **Integer & Floating Arithmetic**
+     - Perform arithmetic operations on variables and explain results using comments.
+     - Apply expression logic and ternary operators with correct precedence.
 
-### Part 2 – Integer & Floating Arithmetic
+3. **Input, Calculation, and Formatting**
+     - Read values using `scanf()` and format floating-point output with width and precision.
+     - Use `cin/cout` for additional formatting and conversion.
 
-- Perform arithmetic operations on variables and explain results using comments.
-- Apply expression logic and ternary operators with correct precedence.
+4. **Type Ranges & Overflow**
+     - Demonstrate min/max values and overflow for different types.
+     - Use `<limits.h>` to compare declared variables against boundaries.
 
-### Part 3 – Input, Calculation, and Formatting
-
-- Read values using `scanf()` and format floating-point output with width and precision.
-- Use `cin/cout` for additional formatting and conversion.
-
-### Part 4 – Type Ranges & Overflow
-
-- Demonstrate min/max values and overflow for different types.
-- Use `<limits.h>` to compare declared variables against boundaries.
-
-### Part 5 – String Formatting
-
-- Use `#define` to define labeled strings.
-- Display strings with field width and alignment.
+5. **String Formatting**
+     - Use `#define` to define labeled strings.
+     - Display strings with field width and alignment.
 
 ---
 
