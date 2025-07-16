@@ -3,7 +3,6 @@
 ## 🎯 Topic
 
 Working with Characters, Strings, and Standard Library Functions in C++  
-(Laboratory Work #8, Variant 6)
 
 ## 📌 Goal
 
