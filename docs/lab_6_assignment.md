@@ -3,7 +3,6 @@
 ## 🎯 Topic
 
 Iterative Summation, Series Expansion, and Function Modeling with User-Controlled Accuracy  
-(Laboratory Work #6, Variant 6)
 
 ## 📌 Goal
 
